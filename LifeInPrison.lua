@@ -44,7 +44,7 @@ local function extend_hitboxes(delta_time)
 
         if player.Team == local_player.Team or are_touching then
             player_humanoid_root_part.Size = Vector3.new(4.5, 6, 4.5)
-            player_humanoid_root_part.Transparency = 0.5
+            player_humanoid_root_part.Transparency = 0.1
             player_humanoid_root_part.BrickColor = player.Team.TeamColor
             player_humanoid_root_part.Shape = Enum.PartType.Block
             player_humanoid_root_part.CanCollide = false
@@ -52,7 +52,7 @@ local function extend_hitboxes(delta_time)
         end
 
         player_humanoid_root_part.Size = Vector3.new(4.5, 6, 4.5)
-        player_humanoid_root_part.Transparency = 0.4
+        player_humanoid_root_part.Transparency = 0.1
         player_humanoid_root_part.BrickColor = player.Team.TeamColor
         player_humanoid_root_part.Shape = Enum.PartType.Block
         player_humanoid_root_part.CanCollide = true
