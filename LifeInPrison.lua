@@ -68,6 +68,6 @@ starter_gui:SetCore("SendNotification", {
 })
 starter_gui:SetCore("SendNotification", {
     Title = "Modified"; 
-    Text = "Modified by Esxizo";
+    Text = "Modified by Imanobs";
     Duration = "10";
 })
